@@ -1,0 +1,9 @@
+escape ^Xx
+hardstatus alwayslastline
+altscreen on
+defutf8 on
+#term screen-256color
+bind ',' prev
+bind '.' next
+hardstatus string '%{= kG}%w'
+#hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
